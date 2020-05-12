@@ -41,7 +41,7 @@ namespace FastyTools.EventCenter
     /// <summary>
     /// 事件中心管理器
     /// </summary>
-    public class EventCenterManager : SingletonManager<EventCenterManager>
+    public class EventCenterManager : Singleton<EventCenterManager>
     {
         private readonly Dictionary<string, IEventInfo> eventDict =
             new Dictionary<string, IEventInfo>();

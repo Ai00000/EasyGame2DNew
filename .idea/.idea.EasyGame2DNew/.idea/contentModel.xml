@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\1\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\1\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_EasyGame2DNew.-1175036261.00" t="ExcludeRecursive" />
-    <e p="D:\UnityProject\2020Project\EasyGame2DNew" t="IncludeRecursive">
+    <e p="C:\Users\1\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_EasyGame2DNew.-93183515.00" t="ExcludeRecursive" />
+    <e p="I:\githubProject\UnityProject\EasyGame2DNew" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Arts" t="Include">
+          <e p="Knight Files" t="Include">
+            <e p="Read Me.txt" t="Include" />
+          </e>
+          <e p="TooCubeForest" t="Include">
+            <e p="demoScenes" t="Include">
+              <e p="Movement.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="saya.txt" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="ClearSignal.cs" t="Include" />
           <e p="FastyTools" t="Include">
             <e p="EventCenter" t="Include">
               <e p="EventCenterManager.cs" t="Include" />
+            </e>
+            <e p="MonoController" t="Include">
+              <e p="MonoController.cs" t="Include" />
+              <e p="MonoManager.cs" t="Include" />
+            </e>
+            <e p="Music" t="Include">
+              <e p="MusicManager.cs" t="Include" />
             </e>
             <e p="ResLoad" t="Include">
               <e p="ResManager.cs" t="Include" />
@@ -22,6 +41,12 @@
               <e p="Singleton.cs" t="Include" />
               <e p="SingletonManager.cs" t="Include" />
             </e>
+          </e>
+          <e p="Player" t="Include">
+            <e p="AttacKClearSignal.cs" t="Include" />
+            <e p="PlayerEvent.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+            <e p="PlayerWeapon.cs" t="Include" />
           </e>
         </e>
         <e p="Tools" t="Include">
@@ -296,6 +321,7 @@
             </e>
           </e>
         </e>
+        <e p="刺客测试.txt" t="Include" />
       </e>
       <e p="EasyGame2DNew.sln" t="IncludeFlat" />
       <e p="NaughtyAttributes.Core.csproj" t="IncludeRecursive" />
