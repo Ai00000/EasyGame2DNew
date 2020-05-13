@@ -42,12 +42,18 @@
               <e p="SingletonManager.cs" t="Include" />
             </e>
           </e>
+          <e p="GameManager.cs" t="Include" />
+          <e p="Item" t="Include">
+            <e p="CoinItem.cs" t="Include" />
+            <e p="ItemEvent.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="AttacKClearSignal.cs" t="Include" />
             <e p="PlayerEvent.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerWeapon.cs" t="Include" />
           </e>
+          <e p="UIManager.cs" t="Include" />
         </e>
         <e p="Tools" t="Include">
           <e p="Cinemachine" t="Include">

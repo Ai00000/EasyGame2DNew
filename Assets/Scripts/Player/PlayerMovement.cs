@@ -40,16 +40,16 @@ namespace Player
 
         //攻击相关
         [BoxGroup("Attack Info")] public int attack;
-
         [BoxGroup("Attack Info"), Tooltip("攻击间隔")]
         public float attackTimer = 1f;
-
         [BoxGroup("Attack Info")] public Collider2D attackBox;
-
         [BoxGroup("Attack Info"), Tooltip("攻击前进的距离")]
         public float attackStep;
-
+        
         private bool canAttack = true;
+        private Vector3 lAttackBoxPos=new Vector3(-0.52f,-0.66f);
+        private Vector3 rAttackBoxPos=new Vector3(-1.07f,-0.66f);
+
 
 
         //组件
@@ -67,6 +67,7 @@ namespace Player
         private static readonly int IsRunning = Animator.StringToHash("isRunning");
         private static readonly int Attack1 = Animator.StringToHash("Attack");
         private static readonly int Jump1 = Animator.StringToHash("Jump");
+        private static readonly int IsWin = Animator.StringToHash("isWin");
 
         private void Start()
         {
@@ -80,6 +81,8 @@ namespace Player
             EventCenterManager.Instance.AddEventLister(PlayerEvent.跳跃落地 + "", OnGroundEnter);
             EventCenterManager.Instance.AddEventLister(PlayerEvent.开始攻击 + "", OnAttackEnter);
             EventCenterManager.Instance.AddEventLister(PlayerEvent.结束攻击 + "", OnAttackExit);
+            EventCenterManager.Instance.AddEventLister(PlayerEvent.胜利 + "", OnWin);
+
         }
 
 
@@ -193,6 +196,8 @@ namespace Player
         private void OnAttackEnter()
         {
             attackBox.enabled = true;
+            //修正攻击触发框位置
+            attackBox.transform.position = sr.flipX? lAttackBoxPos: rAttackBoxPos;
             StartCoroutine(AttackTimeHold());
         }
 
@@ -227,6 +232,12 @@ namespace Player
             }
         }
 
+        //胜利时
+        private void OnWin()
+        {
+            ani.SetBool(IsWin,true);
+        }
+        
         #endregion
 
 
