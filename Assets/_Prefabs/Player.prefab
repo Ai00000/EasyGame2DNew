@@ -219,8 +219,8 @@ MonoBehaviour:
   moveSpeed: 4
   canInput: 1
   jumpSpeed: 6
-  boxWh: {x: 0.6, y: 0.6}
-  maxJumpCount: 2
+  boxWh: {x: 0.2, y: 0.2}
+  maxJumpCount: 1
   currentJumpCount: 0
   quickDown: 2.5
   slowDown: 2
@@ -246,7 +246,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 2987437279685345609}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 98054f5252762794a855f8db97a0a3e7, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

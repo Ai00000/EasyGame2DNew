@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4b96082-02a0-4cb8-ad95-3ad77011cf52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="d4b96082-02a0-4cb8-ad95-3ad77011cf52" name="Default Changelist" comment="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Knight.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Knight.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/Singleton/SingletonManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/MonoController/MonoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Test.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/SceneSwitch/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/MonoController/MonoManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -122,8 +120,16 @@
       <workItem from="1589261484872" duration="19088000" />
       <workItem from="1589289456759" duration="7855000" />
       <workItem from="1589334536129" duration="3321000" />
-      <workItem from="1589374394125" duration="2485000" />
+      <workItem from="1589374394125" duration="2923000" />
     </task>
+    <task id="LOCAL-00001" summary="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
+      <created>1589378839445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589378839445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西" />
   </component>
   <component name="WindowStateProjectService">
     <state x="741" y="270" key="RollbackChangesDialog" timestamp="1589283306321">
