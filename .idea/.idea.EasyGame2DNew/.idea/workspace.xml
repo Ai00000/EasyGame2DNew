@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b96082-02a0-4cb8-ad95-3ad77011cf52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/bg/BG_volcano_1024.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/bg/BG_volcano_1024.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/bg/bg1.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/bg/bg1.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/playerWin.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/playerWin.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Knight.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Knight.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Grid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Grid.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +52,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/AttackClearSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClearSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +122,7 @@
       <workItem from="1589261484872" duration="19088000" />
       <workItem from="1589289456759" duration="7855000" />
       <workItem from="1589334536129" duration="3321000" />
+      <workItem from="1589374394125" duration="2485000" />
     </task>
     <servers />
   </component>
@@ -170,9 +152,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="741" y="270" key="RollbackChangesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589283306321" />
-    <state x="797" y="257" key="SettingsEditor" timestamp="1589334555831">
-      <screen x="124" y="0" width="1796" height="1080" />
+    <state x="719" y="247" key="SettingsEditor" timestamp="1589374403368">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="719" y="247" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589374403368" />
     <state x="719" y="287" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1589282765807" />
     <state x="797" y="257" key="SettingsEditor/124.0.1796.1080@124.0.1796.1080" timestamp="1589334555831" />
     <state x="551" y="279" key="run.anything.popup" timestamp="1589277052499">

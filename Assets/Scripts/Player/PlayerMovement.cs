@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using DG.Tweening;
 using FastyTools.EventCenter;
 using NaughtyAttributes;
 using UnityEngine;
@@ -46,6 +47,11 @@ namespace Player
         [BoxGroup("Attack Info"), Tooltip("攻击前进的距离")]
         public float attackStep;
         
+        
+        //受击相关
+        [ReadOnly,Tooltip("是否无敌")] public bool isInvincible;
+        public float invincibleTime = 1f;
+        
         private bool canAttack = true;
         private Vector3 lAttackBoxPos=new Vector3(-0.52f,-0.66f);
         private Vector3 rAttackBoxPos=new Vector3(-1.07f,-0.66f);
@@ -68,6 +74,7 @@ namespace Player
         private static readonly int Attack1 = Animator.StringToHash("Attack");
         private static readonly int Jump1 = Animator.StringToHash("Jump");
         private static readonly int IsWin = Animator.StringToHash("isWin");
+        private static readonly int Hit = Animator.StringToHash("Hit");
 
         private void Start()
         {
@@ -236,6 +243,35 @@ namespace Player
         private void OnWin()
         {
             ani.SetBool(IsWin,true);
+        }
+
+
+        //受伤
+        // [Button("受伤")]
+        private void OnHit()
+        {
+            ani.SetTrigger(Hit);
+            
+            //透明闪烁
+            sr.DOColor(new Color(sr.color.r, sr.color.g, sr.color.b, 0f), 0.2f).SetLoops(6, LoopType.Yoyo);
+            //无敌时间
+            StartCoroutine(InvincibleTime());
+        }
+
+        //无敌时间
+        IEnumerator InvincibleTime()
+        {
+            isInvincible = true;
+            yield return new WaitForSeconds(invincibleTime);
+            isInvincible = false;
+            yield break;
+        }
+        
+        // [Button("死亡")]
+        //死亡
+        private void OnDie()
+        {
+            ani.SetTrigger("Die");
         }
         
         #endregion
