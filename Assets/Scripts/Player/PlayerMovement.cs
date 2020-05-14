@@ -142,7 +142,6 @@ namespace Player
 
 
         //跳跃
-        //TODO 跳跃失灵现象
         private void Jump()
         {
             var currTime = jumpTime;
@@ -151,8 +150,8 @@ namespace Player
                 jumpTime = 0f;
                 print("跳");
                 currentJumpCount++;
-                // rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
-                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + jumpSpeed);
+                rb.velocity += Vector2.up *jumpSpeed;
+
                 ani.SetTrigger(Jump1);
                 jumpPressed = false;
                 startJump = true;
@@ -165,8 +164,8 @@ namespace Player
             {
                 print("连跳");
                 currentJumpCount++;
-                // rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
-                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + jumpSpeed);
+                rb.velocity=new Vector2(rb.velocity.x,jumpSpeed);
+                // rb.velocity = Vector2.up *jumpSpeed;
 
                 ani.SetTrigger(Jump1);
                 jumpPressed = false;
@@ -225,7 +224,7 @@ namespace Player
         /// </summary>
         private void AutoGravityScale()
         {
-            if (rb.velocity.y < 0)
+            if (rb.velocity.y < 0 && !isGround)
             {
                 rb.gravityScale = quickDown;
             }

@@ -2,7 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b96082-02a0-4cb8-ad95-3ad77011cf52" name="Default Changelist" comment="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
+      <changelist_data />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Close.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Colorful Buttons.cdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Colorful Buttons.cdr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Credits.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Divide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Divide.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Facebook.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/ForwardLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/ForwardLeft.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/ForwardRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/ForwardRight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/GamePad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/GamePad.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Google.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Home.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Instagram.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Menu.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Message.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Minus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Music.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Pause.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Plus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/PowerUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/PowerUp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Question.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Retry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Retry.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Settings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Share.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Shop.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/SoundOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/SoundOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/SoundOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/SoundOn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Trash.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Trophy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Trophy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/Font.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/Font/LilitaOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/Font/LilitaOne-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/Font/简黑咪.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/Font/简黑咪.TTF.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/UI/Artboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/UI/Artboard.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/bg.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartUIMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +98,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-00.png.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StartUIMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/27/605f4fba/Void.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/AttackClearSignal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,7 +114,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/Singleton/SingletonManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/MonoController/MonoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Test.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/SceneSwitch/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/MonoController/MonoManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -55,6 +137,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/StartUIMenu.cs" />
       </list>
     </option>
   </component>
@@ -121,6 +204,7 @@
       <workItem from="1589289456759" duration="7855000" />
       <workItem from="1589334536129" duration="3321000" />
       <workItem from="1589374394125" duration="2923000" />
+      <workItem from="1589419219950" duration="5416000" />
     </task>
     <task id="LOCAL-00001" summary="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
       <created>1589378839445</created>
@@ -152,6 +236,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <MESSAGE value="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西" />
     <option name="LAST_COMMIT_MESSAGE" value="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西" />
   </component>
@@ -160,11 +245,11 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="741" y="270" key="RollbackChangesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589283306321" />
-    <state x="719" y="247" key="SettingsEditor" timestamp="1589374403368">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="719" y="287" key="SettingsEditor" timestamp="1589419292158">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="719" y="247" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589374403368" />
-    <state x="719" y="287" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1589282765807" />
+    <state x="719" y="287" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1589419292158" />
     <state x="797" y="257" key="SettingsEditor/124.0.1796.1080@124.0.1796.1080" timestamp="1589334555831" />
     <state x="551" y="279" key="run.anything.popup" timestamp="1589277052499">
       <screen x="0" y="40" width="1920" height="1040" />
