@@ -16,11 +16,10 @@ namespace Item
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            print("1");
             if (other.gameObject.CompareTag("Player")&& !first)
             {
                 GameManager.Instance.point += points;
-                UIManager.Instance.coinText.text = GameManager.Instance.point+"";
+                UIManager.Instance.coinText.text = "Score: "+GameManager.Instance.point;
                 first = true;
             }
         }

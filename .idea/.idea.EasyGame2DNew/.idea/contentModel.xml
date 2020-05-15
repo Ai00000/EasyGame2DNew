@@ -20,6 +20,7 @@
             </e>
           </e>
         </e>
+        <e p="EndItem.cs" t="Include" />
         <e p="saya.txt" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ClearSignal.cs" t="Include" />

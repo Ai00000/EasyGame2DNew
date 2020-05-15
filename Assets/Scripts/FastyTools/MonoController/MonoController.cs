@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using FastyTools.Singleton;
+using UnityEngine;
 using UnityEngine.Events;
 
 /*
@@ -11,7 +13,7 @@ namespace FastyTools.MonoController
     /// <summary>
     /// 公共Mono 
     /// </summary>
-    public class MonoController : MonoBehaviour
+    public class MonoController : SingletonManager<MonoController>
     {
 
         private event UnityAction UpdateAction;

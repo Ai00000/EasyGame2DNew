@@ -2,6 +2,7 @@
 using System.Collections;
 using DG.Tweening;
 using FastyTools.EventCenter;
+using FastyTools.Music;
 using NaughtyAttributes;
 using UnityEngine;
 
@@ -89,12 +90,20 @@ namespace Player
             EventCenterManager.Instance.AddEventLister(PlayerEvent.开始攻击 + "", OnAttackEnter);
             EventCenterManager.Instance.AddEventLister(PlayerEvent.结束攻击 + "", OnAttackExit);
             EventCenterManager.Instance.AddEventLister(PlayerEvent.胜利 + "", OnWin);
-
+            
+            //播放bgm
+            MusicManager.Instance.PlayBgm("Determination");
+            MusicManager.Instance.SetBgmVolume(0.5f);
         }
 
 
         private void Update()
         {
+            if (!canInput)
+            {
+                return;
+            }
+            
             jumpPressed = Input.GetButtonDown("Jump");
             Jump();
             JumpTime();
@@ -147,6 +156,7 @@ namespace Player
             var currTime = jumpTime;
             if (jumpPressed && isGround)
             {
+                MusicManager.Instance.PlaySound("jump");
                 jumpTime = 0f;
                 print("跳");
                 currentJumpCount++;
@@ -162,6 +172,7 @@ namespace Player
             //          currTime <= nextJumpTimer.y)
             else if(jumpPressed && currentJumpCount + 1 <= maxJumpCount)
             {
+                MusicManager.Instance.PlaySound("jump");
                 print("连跳");
                 currentJumpCount++;
                 rb.velocity=new Vector2(rb.velocity.x,jumpSpeed);
