@@ -3,28 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b96082-02a0-4cb8-ad95-3ad77011cf52" name="Default Changelist" comment="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
       <changelist_data name="" email="" />
-      <change afterPath="$PROJECT_DIR$/Assets/EndItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/bgm.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/bgm/Determination.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/bgm/Determination.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/bgm/EDM Music.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/bgm/EDM Music.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/sound.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/sound/click.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/sound/click.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/sound/jump.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/music/sound/jump.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameUIMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EndItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EndItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/GameCanvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/GameCanvas.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EndItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EndItem.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelQ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelQ.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelX.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelX.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelY.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelZ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelZ.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FastyTools/MonoController/MonoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FastyTools/MonoController/MonoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StartUIMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StartUIMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StartUIMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StartUIMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,24 +40,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-00.png.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EndItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StartUIMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameUIMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/27/605f4fba/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/bc/397f9542/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-00.png.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://I:/Program Files/2019.3.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/AttackClearSignal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/Singleton/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClearSignal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/EventCenter/EventCenterManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/ItemEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/bc/397f9542/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/ResLoad/ResManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/Singleton/SingletonManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/MonoController/MonoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -76,13 +82,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ClearSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FastyTools/MonoController/MonoController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/EndItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/StartUIMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameUIMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" />
       </list>
     </option>
   </component>
@@ -152,6 +162,8 @@
       <workItem from="1589419219950" duration="5416000" />
       <workItem from="1589433105080" duration="11565000" />
       <workItem from="1589447508511" duration="301000" />
+      <workItem from="1589539629637" duration="4652000" />
+      <workItem from="1589544494485" duration="7526000" />
     </task>
     <task id="LOCAL-00001" summary="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
       <created>1589378839445</created>
@@ -188,23 +200,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="741" y="270" key="RollbackChangesDialog" timestamp="1589283306321">
+    <state x="741" y="270" key="RollbackChangesDialog" timestamp="1589544200828">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="741" y="270" key="RollbackChangesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589283306321" />
-    <state x="719" y="287" key="SettingsEditor" timestamp="1589419292158">
+    <state x="741" y="270" key="RollbackChangesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1589544200828" />
+    <state x="719" y="287" key="SettingsEditor" timestamp="1589541113640">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="719" y="247" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589374403368" />
-    <state x="719" y="287" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1589419292158" />
+    <state x="719" y="287" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1589541113640" />
     <state x="797" y="257" key="SettingsEditor/124.0.1796.1080@124.0.1796.1080" timestamp="1589334555831" />
     <state x="551" y="279" key="run.anything.popup" timestamp="1589277052499">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="551" y="279" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1589277052499" />
-    <state x="672" y="344" width="672" height="678" key="search.everywhere.popup" timestamp="1589444794041">
+    <state x="672" y="344" width="672" height="678" key="search.everywhere.popup" timestamp="1589548943265">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="672" y="344" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1589444794041" />
+    <state x="672" y="344" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1589548943265" />
   </component>
 </project>

@@ -57,8 +57,7 @@ namespace Player
         private Vector3 lAttackBoxPos=new Vector3(-0.52f,-0.66f);
         private Vector3 rAttackBoxPos=new Vector3(-1.07f,-0.66f);
 
-
-
+        
         //组件
         private Rigidbody2D rb;
         private Animator ani;
@@ -92,6 +91,7 @@ namespace Player
             EventCenterManager.Instance.AddEventLister(PlayerEvent.胜利 + "", OnWin);
             
             //播放bgm
+            MusicManager.Instance.soundSource = null;
             MusicManager.Instance.PlayBgm("Determination");
             MusicManager.Instance.SetBgmVolume(0.5f);
         }
@@ -99,10 +99,10 @@ namespace Player
 
         private void Update()
         {
-            if (!canInput)
-            {
-                return;
-            }
+            // if (!canInput)
+            // {
+            //     return;
+            // }
             
             jumpPressed = Input.GetButtonDown("Jump");
             Jump();
@@ -153,15 +153,17 @@ namespace Player
         //跳跃
         private void Jump()
         {
+            // print($"跳跃参数值 :{jumpPressed} curr:{currentJumpCount} max:{maxJumpCount}");
+
             var currTime = jumpTime;
             if (jumpPressed && isGround)
             {
                 MusicManager.Instance.PlaySound("jump");
                 jumpTime = 0f;
                 print("跳");
-                currentJumpCount++;
-                rb.velocity += Vector2.up *jumpSpeed;
 
+                rb.velocity += Vector2.up *jumpSpeed;
+                currentJumpCount = 1;
                 ani.SetTrigger(Jump1);
                 jumpPressed = false;
                 startJump = true;
@@ -170,7 +172,7 @@ namespace Player
             //TODO 时间限制
             // else if (jumpPressed && currentJumpCount + 1 <= maxJumpCount && currTime >= nextJumpTimer.x &&
             //          currTime <= nextJumpTimer.y)
-            else if(jumpPressed && currentJumpCount + 1 <= maxJumpCount)
+            else if(jumpPressed && currentJumpCount  <= maxJumpCount)
             {
                 MusicManager.Instance.PlaySound("jump");
                 print("连跳");

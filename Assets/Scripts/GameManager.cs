@@ -3,9 +3,11 @@ using FastyTools.EventCenter;
 using FastyTools.Singleton;
 using Item;
 
-public class GameManager: SingletonManager<GameManager>
+public class GameManager: Singleton<GameManager>
 {
-        public int point;
+        public int point;        //当前得分
+
+        public int currentSceneIndex;
         
-      
+        
 }

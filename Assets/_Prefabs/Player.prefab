@@ -218,12 +218,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   canInput: 1
-  jumpSpeed: 6
+  jumpSpeed: 8
   boxWh: {x: 0.2, y: 0.2}
   maxJumpCount: 1
   currentJumpCount: 0
-  quickDown: 2.5
-  slowDown: 2
+  quickDown: 5
+  slowDown: 3
   nextJumpTimer: {x: 0, y: 0.16}
   checkP: {fileID: 1902167401}
   isGround: 0

@@ -19,7 +19,8 @@ namespace Item
             if (other.gameObject.CompareTag("Player")&& !first)
             {
                 GameManager.Instance.point += points;
-                UIManager.Instance.coinText.text = "Score: "+GameManager.Instance.point;
+                GameObject.Find("GameCanvas").GetComponent<UIManager>().coinText.text= "Score: "+GameManager.Instance.point;
+                // UIManager.Instance.coinText.text = "Score: "+GameManager.Instance.point;
                 first = true;
             }
         }

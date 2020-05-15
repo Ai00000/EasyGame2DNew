@@ -26,7 +26,8 @@ namespace FastyTools.Music
 
         private float totalVolume = 1;
 
-        private List<AudioSource> soundSource;
+        public List<AudioSource> soundSource;
+
 
         /// <summary>
         /// 播放bgm
@@ -43,18 +44,18 @@ namespace FastyTools.Music
             ResManager.Instance.LoadAsync<AudioClip>("music/bgm/" + clipName, (c) =>
             {
                 bgmSource.clip = c;
-                bgmSource.volume = bgmVolume*totalVolume;
+                bgmSource.volume = bgmVolume * totalVolume;
                 bgmSource.loop = true;
                 bgmSource.Play();
             });
         }
-    
+
         /// <summary>
         /// 播放bgm
         /// </summary>
         public void PlayBgm()
         {
-            if (bgmSource!=null&& bgmSource.clip!=null&& !bgmSource.isPlaying)
+            if (bgmSource != null && bgmSource.clip != null && !bgmSource.isPlaying)
             {
                 bgmSource.Play();
             }
@@ -84,7 +85,7 @@ namespace FastyTools.Music
             bgmSource.Stop();
         }
 
-        
+
         /// <summary>
         /// 播放音效
         /// </summary>
@@ -93,10 +94,9 @@ namespace FastyTools.Music
         {
             ResManager.Instance.LoadAsync<AudioClip>("music/sound/" + sound, (c) =>
             {
-               
                 var source = GetSoundSource();
                 source.clip = c;
-                source.volume = soundVolume*totalVolume;
+                source.volume = soundVolume * totalVolume;
                 source.PlayOneShot(source.clip);
 
                 MonoManager.Instance.StartCoroutine(PlaySoundCallBack(source));
@@ -108,8 +108,6 @@ namespace FastyTools.Music
         }
 
 
-       
-        
         /// <summary>
         /// 设置是否静音
         /// </summary>
@@ -117,33 +115,35 @@ namespace FastyTools.Music
         public void SetMuteAll(bool isMute)
         {
             bgmSource.mute = isMute;
-            foreach (var audioSource in soundSource.Where(m=>m.isPlaying==true&& m.mute!=isMute))
+            foreach (var audioSource in soundSource.Where(m => m.isPlaying == true && m.mute != isMute))
             {
                 audioSource.mute = isMute;
             }
         }
 
-        
+
         /// <summary>
         /// 设置bgm的音量0-1
         /// </summary>
         /// <param name="volume"></param>
         public void SetBgmVolume(float volume)
         {
-            bgmSource.volume = volume*totalVolume;
+            bgmSource.volume = volume * totalVolume;
         }
+
         /// <summary>
         /// 设置sound音量0-1
         /// </summary>
         /// <param name="volume"></param>
         public void SetSoundVolume(float volume)
         {
-            foreach (var a in soundSource.Where(m=>m.isPlaying==true))
+            foreach (var a in soundSource)
             {
                 a.volume = totalVolume * volume;
+                soundVolume = volume;
             }
         }
-        
+
         /// <summary>
         /// 设置总音量0-1
         /// </summary>
@@ -151,27 +151,35 @@ namespace FastyTools.Music
         public void SetTotalVolume(float volume)
         {
             totalVolume = volume;
+            bgmSource.volume = totalVolume * bgmVolume;
+
+            foreach (var a in soundSource.Where(m => m.isPlaying == true))
+            {
+                a.volume = totalVolume * soundVolume;
+            }
         }
-        
-        
+
+
         //音效播放完成回调
         private IEnumerator PlaySoundCallBack(AudioSource ass)
         {
-            yield return new WaitForSeconds(ass.clip.length*Time.timeScale);
+            yield return new WaitForSeconds(ass.clip.length * Time.timeScale);
             ass.clip = null;
         }
-        
+
         private AudioSource GetSoundSource()
         {
             //第一次使用
             if (soundSource == null)
             {
                 var go = new GameObject("soundSource");
+
                 var s = go.AddComponent<AudioSource>();
                 soundSource = new List<AudioSource>() {s};
                 return s;
             }
 
+            Debug.Log("当前的数量:" + soundSource.Count);
             AudioSource cc = null;
             foreach (var source in soundSource)
             {
@@ -183,7 +191,7 @@ namespace FastyTools.Music
             }
 
             {
-                var s= GameObject.Find("soundSource").AddComponent<AudioSource>();
+                var s = GameObject.Find("soundSource").AddComponent<AudioSource>();
                 soundSource.Add(s);
                 return s;
             }
