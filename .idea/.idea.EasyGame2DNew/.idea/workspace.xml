@@ -3,32 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b96082-02a0-4cb8-ad95-3ad77011cf52" name="Default Changelist" comment="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
       <changelist_data name="" email="" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameUIMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EndItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EndItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/GameCanvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/GameCanvas.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level1Ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level1Ico.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EndItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EndItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelQ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelQ.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelX.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelX.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelY.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelZ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelZ.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StartUIMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StartUIMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +22,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameUIMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://I:/Program Files/2019.3.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/27/605f4fba/Void.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,13 +67,13 @@
         <option value="$PROJECT_DIR$/Assets/EndItem.cs" />
         <option value="$PROJECT_DIR$/Assets/StartUIMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/GameUIMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" />
       </list>
     </option>
   </component>
@@ -126,10 +107,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="17516">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="17516" />
       <method v="2" />
     </configuration>
   </component>
@@ -164,6 +145,7 @@
       <workItem from="1589447508511" duration="301000" />
       <workItem from="1589539629637" duration="4652000" />
       <workItem from="1589544494485" duration="7526000" />
+      <workItem from="1589629170227" duration="7291000" />
     </task>
     <task id="LOCAL-00001" summary="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
       <created>1589378839445</created>
@@ -200,6 +182,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="438" height="466" key="DebuggerActiveHint" timestamp="1589637355752">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="438" height="466" key="DebuggerActiveHint/0.40.1920.1040@0.40.1920.1040" timestamp="1589637355752" />
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1589642924542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924542" />
+    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1589642924542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924542" />
+    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1589642924542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924542" />
+    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1589642924542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924542" />
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
+    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1589642924542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924542" />
+    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1589642924542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924542" />
+    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1589642924542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924542" />
+    <state width="1921" height="356" key="GridCell.Tab.2.bottom" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.2.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
+    <state width="1921" height="356" key="GridCell.Tab.2.center" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.2.center/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
+    <state width="1921" height="356" key="GridCell.Tab.2.left" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.2.left/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
+    <state width="1921" height="356" key="GridCell.Tab.2.right" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.2.right/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
+    <state width="1921" height="356" key="GridCell.Tab.3.bottom" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.3.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
+    <state width="1921" height="356" key="GridCell.Tab.3.center" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.3.center/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
+    <state width="1921" height="356" key="GridCell.Tab.3.left" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.3.left/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
+    <state width="1921" height="356" key="GridCell.Tab.3.right" timestamp="1589642924543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.3.right/0.40.1920.1040@0.40.1920.1040" timestamp="1589642924543" />
     <state x="741" y="270" key="RollbackChangesDialog" timestamp="1589544200828">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using DG.Tweening;
 using FastyTools.Music;
 using UnityEngine;
@@ -20,7 +21,10 @@ public class StartUIMenu : MonoBehaviour
     public RectTransform helpPanel;
     public RectTransform morePanel;
     public RectTransform settingPanel;
-
+    public RectTransform switchPanel;
+    public RectTransform contentPanel;
+    
+    
 
     public Slider sliderTotal;
     public Slider sliderBgm;
@@ -30,6 +34,7 @@ public class StartUIMenu : MonoBehaviour
     private Vector2 moreStartPos;
 
     private RectTransform currentPanel;
+    
 
     private void Start()
     {
@@ -57,13 +62,26 @@ public class StartUIMenu : MonoBehaviour
             MusicManager.Instance.SetSoundVolume(v);
         });
       
-        
+        //点击开始按钮
         startBtn.onClick.AddListener(() =>
             {
-                MusicManager.Instance.StopBgm();
-                GameManager.Instance.currentSceneIndex = 1;
-                SceneManager.LoadScene(1);
+                // PlayerPrefs.DeleteKey("oldLevels");
+                // PlayerPrefs.SetString("oldLevels",PlayerPrefs.GetString("oldLevels")+"0_1_2");
+
+                //初次启动游戏
+                var data= PlayerPrefs.GetString("oldLevels");
+                if (data==" "||data==string.Empty||data==null)
+                {
+                    PlayerPrefs.SetString("oldLevels","0");
+                }
+
+                // MusicManager.Instance.StopBgm();
+                // GameManager.Instance.currentSceneIndex = 1;
+                // SceneManager.LoadScene(1);
                 MusicManager.Instance.PlaySound("click");
+                switchPanel.gameObject.SetActive(true);
+                switchPanel.DOScale(new Vector3(0.1f, 0.1f, 0.1f), 0.5f).SetEase(Ease.OutBack).From();
+                AddLevel();
             }
         );
         moreBtn.onClick.AddListener(() =>
@@ -147,6 +165,9 @@ public class StartUIMenu : MonoBehaviour
         moreBtn.GetComponent<RectTransform>().DOLocalMoveX(-1000, 0.5f).From().SetDelay(0.5f).SetEase(Ease.OutBack);
         helpBtn.GetComponent<RectTransform>().DOLocalMoveX(1000, 0.5f).From().SetDelay(0.8f).SetEase(Ease.OutBack);
         quitBtn.GetComponent<RectTransform>().DOLocalMoveX(-1000, 0.5f).From().SetDelay(1f).SetEase(Ease.OutBack);
+        
+        
+      
     }
 
 
@@ -159,6 +180,40 @@ public class StartUIMenu : MonoBehaviour
         {
             morePanel.DOLocalMoveX(1000, 0.5f).From();
             morePanel.gameObject.SetActive(false);
+        }
+    }
+
+    //向选关容器动态设置关卡是否显示
+    private void AddLevel()
+    {
+        var oldLevels = GetOldLevels();
+        var allChild = contentPanel.GetComponentsInChildren<Image>();
+        for (var i = 0; i < oldLevels.Length; i++)
+        {
+            var c = int.Parse(oldLevels[i]);
+            allChild[c].color=new Color(1,1,1);
+        }
+
+        AddLevelLoadBtn();
+    }
+
+    //获得所有已经通关的关卡
+    private string[] GetOldLevels()
+    {
+        return PlayerPrefs.GetString("oldLevels").Split('_');
+    }
+
+    //添加关卡按钮监听
+    private void AddLevelLoadBtn()
+    {
+        var allChild = contentPanel.GetComponentsInChildren<Button>();
+        
+        print("子图像:"+allChild.Length);
+        print(PlayerPrefs.GetString("oldLevels"));
+        for (int i = 0; i < allChild.Length; i++)
+        {
+            print("Bt:"+allChild[i].name);
+            allChild[i].onClick.AddListener(() => {print("i="+i); SceneManager.LoadScene(i-4);});
         }
     }
 }
