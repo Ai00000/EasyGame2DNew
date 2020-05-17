@@ -133,7 +133,7 @@ public class StartUIMenu : MonoBehaviour
         });
         
         #endregion
-        bestScore.text = "Best Score:" + PlayerPrefs.GetFloat("bestScore") + "";
+        bestScore.text = "Best Level Score:" + PlayerPrefs.GetFloat("bestScore") + "";
     }
 
 
@@ -170,18 +170,18 @@ public class StartUIMenu : MonoBehaviour
       
     }
 
-
-    private void SwitchPanel()
-    {
-        if (helpPanel.gameObject.activeSelf)
-        {
-        }
-        else
-        {
-            morePanel.DOLocalMoveX(1000, 0.5f).From();
-            morePanel.gameObject.SetActive(false);
-        }
-    }
+    
+    // private void SwitchPanel()
+    // {
+    //     if (helpPanel.gameObject.activeSelf)
+    //     {
+    //     }
+    //     else
+    //     {
+    //         morePanel.DOLocalMoveX(1000, 0.5f).From();
+    //         morePanel.gameObject.SetActive(false);
+    //     }
+    // }
 
     //向选关容器动态设置关卡是否显示
     private void AddLevel()
@@ -193,10 +193,17 @@ public class StartUIMenu : MonoBehaviour
             var c = int.Parse(oldLevels[i]);
             allChild[c].color=new Color(1,1,1);
         }
+        
 
-        AddLevelLoadBtn();
+        // AddLevelLoadBtn();
     }
 
+    private Image[] GetImages()
+    {
+        var oldLevels = GetOldLevels();
+        return  contentPanel.GetComponentsInChildren<Image>();
+    }
+    
     //获得所有已经通关的关卡
     private string[] GetOldLevels()
     {
@@ -204,16 +211,41 @@ public class StartUIMenu : MonoBehaviour
     }
 
     //添加关卡按钮监听
-    private void AddLevelLoadBtn()
+    // private void AddLevelLoadBtn()
+    // {
+    //     var allChild = contentPanel.GetComponentsInChildren<Button>();
+    //     
+    //     print("子图像:"+allChild.Length);
+    //     print(PlayerPrefs.GetString("oldLevels"));
+    //
+    //     var i = 1;
+    //     foreach (var cc in allChild)
+    //     {
+    //         cc.onClick.AddListener(() =>
+    //         {
+    //             print("i="+i);
+    //             SceneManager.LoadScene(i);
+    //             
+    //         });
+    //         i++;
+    //     }
+    //     // for (int i = 0; i < allChild.Length; i++)
+    //     // {
+    //     //     print("Bt:"+allChild[i].name);
+    //     //     allChild[i].onClick.AddListener(() =>
+    //     //     {
+    //     //        SceneManager.LoadScene(i-4);
+    //     //     });
+    //     // }
+    // }
+
+
+    public void OnClickEnterScene(int index)
     {
-        var allChild = contentPanel.GetComponentsInChildren<Button>();
-        
-        print("子图像:"+allChild.Length);
-        print(PlayerPrefs.GetString("oldLevels"));
-        for (int i = 0; i < allChild.Length; i++)
+        if (GetImages()[index-1].color==new Color(1,1,1))
         {
-            print("Bt:"+allChild[i].name);
-            allChild[i].onClick.AddListener(() => {print("i="+i); SceneManager.LoadScene(i-4);});
+            GameManager.Instance.currentSceneIndex = index;
+            SceneManager.LoadScene(index);
         }
     }
 }

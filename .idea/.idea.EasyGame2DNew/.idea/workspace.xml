@@ -3,13 +3,817 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b96082-02a0-4cb8-ad95-3ad77011cf52" name="Default Changelist" comment="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
       <changelist_data name="" email="" />
-      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level1Ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level1Ico.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/LevelIcos/level5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/UI/ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Arts/UI/ico.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyGame2DNew/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Colorful Buttons.cdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Colorful Buttons.cdr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Credits.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Divide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Divide.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Facebook.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/ForwardLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/ForwardLeft.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/ForwardRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/ForwardRight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/GamePad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/GamePad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Google.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Heart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Instagram.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Menu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Message.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Minus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Music.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Pause.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/PowerUp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/PowerUp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Question.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Retry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Retry.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Settings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Share.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Shop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/SoundOff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/SoundOff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/SoundOn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/SoundOn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Trash.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Trophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/ColorfulButtons/Trophy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/ExamleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/ExamleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/Background_CC_rounded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/Background_CC_rounded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/InputField_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/InputField_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/Slot3D_rounded_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/Slot3D_rounded_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/Slot_rounded_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/Slot_rounded_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_Vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_Vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_horizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button2_rounded_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button2_rounded_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button_rounded_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button_rounded_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/Background_GB_rounded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/Background_GB_rounded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/InputField_Rounded_GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/InputField_Rounded_GB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/Slot3D_rounded_GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/Slot3D_rounded_GB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/Slot_rounded_GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/Slot_rounded_GB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/border_Rounded_GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/border_Rounded_GB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/buttons/button2_rounded_GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/buttons/button2_rounded_GB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/buttons/button_rounded_GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/buttons/button_rounded_GB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/off_rounded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/rounded/off_rounded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons/button_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons/button_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons/button_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons/button_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons/button_small_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons/button_small_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons/button_small_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/Buttons/button_small_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/InputField.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/InputField.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/slot3D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/gray/square/slot3D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/Background_HCC_rounded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/Background_HCC_rounded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/InputField_Rounded_HCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/InputField_Rounded_HCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/Slot3D_rounded_HCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/Slot3D_rounded_HCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/Slot_rounded_HCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/Slot_rounded_HCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_Vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_Vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_horizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/border_Rounded_HCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/border_Rounded_HCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button2_rounded_HCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button2_rounded_HCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button_rounded_HCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button_rounded_HCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/InputField.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/InputField.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/background_Vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/background_Vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled_vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider/handle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/background_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/background_background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/background_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/background_vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/filled_Vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/filled_Vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/filled_horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/filled_horizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider2/handle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/Background_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/Background_vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/background_horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/background_horizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/filled_horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/filled_horizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/filled_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/filled_vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slider3/handle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slot3D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/Slot3D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/health_Bar_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/health_Bar_vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/health_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/health_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/off2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/off2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/on 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/on 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/on2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/on2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/on3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/halfcustomizible/square/toogle/on3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons/icons_color_customizible.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons/icons_color_customizible.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons/isons_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons/isons_black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons/locked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons/locked.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons/locked_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/artwork/icons/locked_white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font1/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font1/license.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font1/pixelfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font1/pixelfont.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font1/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font1/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font2/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font2/license.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font2/pixelfont2.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font2/pixelfont2.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font2/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/fonts/Font2/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/InputField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/InputField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/Inventory.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/Inventory.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/background.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/background.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/border.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/border.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/buttons/button_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/buttons/button_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/buttons/button_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/rounded/buttons/button_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/InputField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/InputField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/Inventory.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/Inventory.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/background.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/background.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/border.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/border.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons/button_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons/button_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons/button_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons/button_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons/button_small_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons/button_small_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons/button_small_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/buttons/button_small_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/icon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Gray_black/square/icon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/Border.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/Border.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/Inventory.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/Inventory.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/Toggle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/Toggle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/backgroundHalfCustom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/backgroundHalfCustom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_BT.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_BT.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_LR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_LR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_RL.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_RL.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_TB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_TB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Border.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Border.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_BT.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_BT.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL .prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL .prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_TB 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_TB 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Inventory.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Inventory.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/Scrollbar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/Scrollbar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarBT.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarBT.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarLR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarLR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarTB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarTB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 BT.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 BT.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 LR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 LR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 RL.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 RL.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 TB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 TB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderBT.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderBT.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderLR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderLR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderRL.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderRL.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderTB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderTB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Toggle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/Toggle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/backgroundHalfCustom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/backgroundHalfCustom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderBT.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderBT.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderLR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderLR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderRL.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderRL.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderTB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderTB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/Border.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/Border.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/Inventory.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/Inventory.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/backgroundCustom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/backgroundCustom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_BT.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_BT.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_LR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_LR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_RL.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_RL.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_TB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_TB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/Border.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/Border.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/Inventory.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/Inventory.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/backgroundCustom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/backgroundCustom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons/button_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons/button_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons/button_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons/button_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/icon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/prefabs/color_customizible/square/icon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/arrow_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/arrow_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_GB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_HCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_HCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_rounded_CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_rounded_CC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_rounded_GB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_rounded_GB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_rounded_HCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/dropdown_rounded_HCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_CC.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_CC.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_GB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_GB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_HHC.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_HHC.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_CC.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_CC.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_GB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_GB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_HHC.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_HHC.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/Materials/adventurer-air-attack-3-end-01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/Materials/adventurer-air-attack-3-end-01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack1-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack1-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack1-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack1-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack1-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack1-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack1-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack1-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack2-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack2-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack2-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack2-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack2-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack2-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack3-loop-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack3-loop-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack3-loop-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack3-loop-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack3-rdy-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack3-rdy-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack1-04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack2-05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-attack3-05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-loop-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-loop-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-loop-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-loop-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-loop-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-loop-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-loop-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-cast-loop-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-clmb-04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-grb-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-grb-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-grb-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-grb-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-grb-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-grb-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-grb-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-grb-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-jmp-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-jmp-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-jmp-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crnr-jmp-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crouch-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crouch-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crouch-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crouch-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crouch-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crouch-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crouch-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-crouch-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-die-06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-fall-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-fall-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-fall-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-fall-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-hurt-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-hurt-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-hurt-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-hurt-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-hurt-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-hurt-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-2-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-2-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-2-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-2-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-2-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-2-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-2-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-idle-2-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-items-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-items-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-items-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-items-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-items-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-items-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-jump-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-jump-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-jump-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-jump-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-jump-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-jump-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-jump-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-jump-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-ladder-climb-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-ladder-climb-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-ladder-climb-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-ladder-climb-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-ladder-climb-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-ladder-climb-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-ladder-climb-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-ladder-climb-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-run-05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-slide-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-slide-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-slide-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-slide-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-smrslt-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-smrslt-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-smrslt-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-smrslt-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-smrslt-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-smrslt-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-smrslt-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-smrslt-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-stand-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-stand-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-stand-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-stand-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-stand-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-stand-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-drw-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-drw-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-drw-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-drw-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-drw-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-drw-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-drw-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-drw-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-shte-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-shte-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-shte-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-shte-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-shte-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-shte-02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-shte-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-swrd-shte-03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-wall-slide-00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-wall-slide-00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-wall-slide-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-wall-slide-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/adventurer-v1.5-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/adventurer-v1.5-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background/BGBack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background/BGBack.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background/BGFront.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background/BGFront.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background/CloudsBack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background/CloudsBack.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background/CloudsFront.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Background/CloudsFront.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Foreground.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Foreground/TilesExamples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Foreground/TilesExamples.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Foreground/Tileset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Foreground/Tileset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Foreground/Trees.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Foreground/Trees.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Mockup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/Sprites/FreePlatformerNA/Mockup.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_ID_PW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_ID_PW.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_coin1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_coin1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_coin2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_coin2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_coin3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_coin3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_event1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_event1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_event2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_event2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_event3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_event3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_exp1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_exp1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_exp2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_exp2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_exp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_exp3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_login1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_login1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_login2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_login2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_login3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_login3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_map name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_map name.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_option1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_option1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_option2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_option2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_option3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_option3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_option4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_option4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_select1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_select1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_select2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_select2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_select3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_select3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_user information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/box_user information.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/circle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/circle_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/circle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/circle_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/circle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/box/circle_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/board.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_exit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_login.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_round.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_start.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_triangle_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_triangle_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_triangle_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_triangle_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_triangle_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_triangle_top.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_triangle_under.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Arts/simple UI &amp; icons/button/button_triangle_under.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameUIMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameUIMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelQ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelQ.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/GameCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/GameCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player-climb-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/player-climb-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/saya.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/saya.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/刺客测试.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/刺客测试.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +825,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameUIMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://I:/Program Files/2019.3.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/27/605f4fba/Void.cs" root0="SKIP_HIGHLIGHTING" />
@@ -30,7 +833,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/bc/397f9542/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Arts/Sprites/Adventurer-1.5/Individual Sprites/adventurer-air-attack-3-end-00.png.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://I:/Program Files/2019.3.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Slider.cs" root0="SKIP_HIGHLIGHTING" />
@@ -69,11 +871,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FastyTools/Music/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/GameUIMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item/CoinItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartUIMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +948,7 @@
       <workItem from="1589539629637" duration="4652000" />
       <workItem from="1589544494485" duration="7526000" />
       <workItem from="1589629170227" duration="7291000" />
+      <workItem from="1589719042499" duration="4397000" />
     </task>
     <task id="LOCAL-00001" summary="增加受伤效果（无敌时间和玩家角色闪烁）和一些小东西">
       <created>1589378839445</created>
@@ -260,6 +1063,10 @@
     <state x="719" y="247" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589374403368" />
     <state x="719" y="287" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1589541113640" />
     <state x="797" y="257" key="SettingsEditor/124.0.1796.1080@124.0.1796.1080" timestamp="1589334555831" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1589719640929">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.40.1920.1040@0.40.1920.1040" timestamp="1589719640929" />
     <state x="551" y="279" key="run.anything.popup" timestamp="1589277052499">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

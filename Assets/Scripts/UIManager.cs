@@ -1,4 +1,5 @@
 ﻿using System;
+using DG.Tweening;
 using FastyTools.EventCenter;
 using FastyTools.Singleton;
 using Item;
@@ -28,8 +29,25 @@ public class UIManager :MonoBehaviour
     public Button nextBtn;
     public Button exitBtn;
 
+
+    public GameObject endText;
+
+    public RectTransform levelText;
+    
     private void Start()
     {
+        
+        //
+        GameManager.Instance.AddLevel();
+        
+        //关卡名动画
+        levelText.DOLocalMoveX(-2300, 0.5f).From();
+        levelText.GetComponent<Text>().DOText(GameManager.Instance.levelName[GameManager.Instance.currentSceneIndex-1], 2f).SetDelay(0.6f).onComplete+= () =>
+        {
+            levelText.gameObject.SetActive(false);
+        };
+        
+        
         restartBtn.onClick.AddListener(() =>
         {
             SceneManager.LoadScene(GameManager.Instance.currentSceneIndex);
@@ -37,6 +55,12 @@ public class UIManager :MonoBehaviour
         nextBtn.onClick.AddListener(() =>
         {
             GameManager.Instance.currentSceneIndex += 1;
+            if (GameManager.Instance.currentSceneIndex>5)
+            {
+                endText.SetActive(true);
+                endText.GetComponent<Text>().DOFade(0.1f, 1f).From().onComplete += () => { SceneManager.LoadScene(0); };
+
+            }
             SceneManager.LoadScene(GameManager.Instance.currentSceneIndex);
         });
         

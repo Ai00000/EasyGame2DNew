@@ -14,6 +14,18 @@
           <e p="Knight Files" t="Include">
             <e p="Read Me.txt" t="Include" />
           </e>
+          <e p="SimplePixelUI" t="Include">
+            <e p="fonts" t="Include">
+              <e p="Font1" t="Include">
+                <e p="license.txt" t="Include" />
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="Font2" t="Include">
+                <e p="license.txt" t="Include" />
+                <e p="readme.txt" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="TooCubeForest" t="Include">
             <e p="demoScenes" t="Include">
               <e p="Movement.cs" t="Include" />
